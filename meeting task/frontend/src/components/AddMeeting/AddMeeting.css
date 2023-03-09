@@ -1,0 +1,49 @@
+.AddMeeting > form {
+  width: 300px;
+  margin: auto;
+  text-align: left;
+}
+
+.AddMeeting > form > * {
+  width: 100%;
+  font-size: x-large;
+  box-sizing: border-box;
+}
+
+.AddMeeting input,
+.AddMeeting select {
+  margin-bottom: 10px;
+}
+
+.AddMeeting span {
+  position: absolute;
+  left: 100px;
+  color: red;
+}
+
+button {
+  background-color: #ffffff;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow 0.2s, -ms-transform 0.1s, -webkit-transform 0.1s,
+    transform 0.1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
